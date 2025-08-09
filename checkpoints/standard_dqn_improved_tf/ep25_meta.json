@@ -1,0 +1,24 @@
+{
+  "params": {
+    "lr": 0.002,
+    "epsilon_decay": 0.9995,
+    "target_update_freq": 100,
+    "batch_size": 128,
+    "gamma": 0.999,
+    "buffer_size": 50000,
+    "epsilon_end": 0.01,
+    "num_actions": 11
+  },
+  "gamma": 0.999,
+  "epsilon_min": 0.01,
+  "epsilon_decay": 0.9995,
+  "target_update_freq": 100,
+  "min_replay": 1000,
+  "grad_clip_norm": 10.0,
+  "huber_delta": 1.0,
+  "use_soft_target": true,
+  "tau": 0.01,
+  "reward_clip": true,
+  "reward_clip_lo": -1.0,
+  "reward_clip_hi": 1.0
+}
